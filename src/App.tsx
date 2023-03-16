@@ -35,12 +35,21 @@ function App() {
           name={userData?.name}
           username={`@${userData?.login}`}
         />
-        <div className=' px-3 w-full '>
+        <div className=' px-6 w-full '>
 
-          <Button svgtipe='github' title='Codando aqui' />
-          <Button svgtipe='portifolio' title='Veja minha História no Portifolio' />
-          <Button svgtipe='linkdin' title='Me contrate no Linkdin' />
-          <Button svgtipe='insta' title='Sigue no Insta!' />
+          <Button
+            link='https://github.com/M4rcoToni'
+            svgtipe='github' title='Codando aqui'
+          />
+          {/* <Button  svgtipe='portifolio' title='Veja minha História no Portifolio' /> */}
+          <Button
+            link='https://www.linkedin.com/in/m4rcotoni/'
+            svgtipe='linkdin' title='Me contrate no Linkdin'
+          />
+          <Button
+            link='https://www.instagram.com/m4rcotoni/'
+            svgtipe='insta' title='Sigue no Insta!'
+          />
         </div>
       </motion.div>
 
