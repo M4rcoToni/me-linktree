@@ -15,9 +15,8 @@ function App() {
     }
     fetchData();
   }, []);
-  const width = 500;
   return (
-    <div className="max-w-[1344px] mx-auto flex flex-col items-center my-20">
+    <div className="max-w-[1344px] mx-auto flex flex-col items-center">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -35,11 +34,12 @@ function App() {
           name={userData?.name}
           username={`@${userData?.login}`}
         />
-        <div className='max-w-[500px] px-20 '>
+        <div className=' px-3 w-full '>
 
-          <Button svgtipe='github' />
-          <Button svgtipe='insta' />
-          <Button svgtipe='linkdin' />
+          <Button svgtipe='github' title='Portifolio' />
+          <Button svgtipe='portifolio' title='Veja minha História no Portifolio' />
+          <Button svgtipe='linkdin' title='Me contrate no Linkdin' />
+          <Button svgtipe='insta' title='Me sigua no Instagram' />
         </div>
       </motion.div>
     </div>
