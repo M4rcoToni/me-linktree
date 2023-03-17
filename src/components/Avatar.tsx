@@ -6,11 +6,13 @@ interface Props {
 export function Avatar({ avatar_url, name, username }: Props) {
 
   return (
-    <div className=" h-60 " >
-      <div className="flex flex-col items-center justify-center">
-        <img src={avatar_url} alt="avatar" className="h-36 w-36 rounded-full" />
+    <div className=" h-60 pb-20" >
+      <div className="flex flex-col items-center justify-center ">
+        <div className="mb-7">
+          <img src={avatar_url} alt="avatar" className="h-40 w-40 rounded-full " />
+        </div>
         <span className="text-3xl text-white font-black block p-4">{name}</span>
-        <span className="text-xl text-white font-black block p-4">{username}</span>
+        <span className="text-xl font-bold block p-4  bg-nlw-gradient text-transparent bg-clip-text">{username}</span>
       </div>
     </div>
   );

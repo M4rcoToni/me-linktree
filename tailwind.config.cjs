@@ -10,8 +10,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        back: "url('/background.png')",
-        grad: "linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)",
+        'nlw-gradient': 'linear-gradient(90deg, #9572FC 0%, #00d4ff 50.52%, #e700ff 100%)',
       }
     },
   },
