@@ -9,8 +9,11 @@ module.exports = {
       sans: ['Inter', 'sans-serif'],
     },
     extend: {
+      colors: {
+        'blue': '#00d4ff',
+      },
       backgroundImage: {
-        'nlw-gradient': 'linear-gradient(90deg, #9572FC 0%, #00d4ff 50.52%, #e700ff 100%)',
+        'gradient': 'linear-gradient(90deg, #9572FC 0%, #00d4ff 50.52%, #e700ff 100%)',
       }
     },
   },

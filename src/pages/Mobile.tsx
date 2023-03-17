@@ -18,7 +18,7 @@ function Mobile() {
   return (
 
     <motion.div
-      className='w-screen pt-14 flex flex-col items-center justify-center bg-black'
+      className='w-screen pt-6 flex flex-col items-center justify-center bg-black'
     >
       {
         userData &&
@@ -33,7 +33,7 @@ function Mobile() {
           }}
           transition={{ delay: 0.3, duration: 0.6 }}
         >
-          <div className='pb-12'>
+          <div className='pb-8'>
             <Avatar
               avatar_url={userData?.avatar_url}
               name={userData?.name}

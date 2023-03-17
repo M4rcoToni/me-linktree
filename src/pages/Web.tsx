@@ -19,7 +19,7 @@ export default function Web() {
   return (
 
     <motion.div
-      className='w-screen  pt-20 flex flex-col items-center justify-center bg-black'
+      className='w-screen  pt-16 flex flex-col items-center justify-center bg-black'
     >
       {
         userData &&
