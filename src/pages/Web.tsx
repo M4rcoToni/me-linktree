@@ -57,7 +57,7 @@ export default function Web() {
             <Button
               type='web'
               link='https://www.instagram.com/m4rcotoni/'
-              svgtipe='insta' title='Sigue no Insta!'
+              svgtipe='insta' title='Segue no Insta!'
             />
           </div>
 
