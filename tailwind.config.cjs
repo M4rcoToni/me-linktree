@@ -10,7 +10,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        'blue': '#00d4ff',
+        'gradient': 'linear-gradient(90deg, #9572FC 0%, #00d4ff 50.52%, #e700ff 100%)',
       },
       backgroundImage: {
         'gradient': 'linear-gradient(90deg, #9572FC 0%, #00d4ff 50.52%, #e700ff 100%)',

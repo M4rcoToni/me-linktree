@@ -15,7 +15,7 @@ export function Button({ svgtipe, title, link, type }: ButtonProps) {
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.4 }}
             whileTap={{ scale: 0.9 }}
-            className='w-80 bg-transparent border-2 border-white hover:border-blue  fill-white hover:fill-blue hover:text-blue  text-white flex flex-row content-center justify-center'
+            className='w-80 bg-transparent border-2 border-white hover:bg-gradient  fill-white hover:fill-blue hover:text-blue  text-white flex flex-row content-center justify-center'
             target="_blank"
             href={link}
           >
@@ -40,7 +40,7 @@ export function Button({ svgtipe, title, link, type }: ButtonProps) {
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.4 }}
             whileTap={{ scale: 0.9 }}
-            className='w-full px-20 bg-transparent border-2 border-white hover:border-blue  fill-white hover:fill-blue hover:text-blue text-white flex flex-row content-center justify-center'
+            className='w-full px-20 bg-transparent border-2 border-white hover:bg-gradient fill-white hover:fill-blue hover:text-blue text-white flex flex-row content-center justify-center'
             target="_blank"
             href={link}
           >
